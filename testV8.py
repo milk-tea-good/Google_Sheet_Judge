@@ -2,7 +2,7 @@
 from openpyxl import load_workbook
 from selenium.webdriver.support import expected_conditions
 
-wb = load_workbook('Test005.xlsx')      # 讀入 Test005.xlsx
+wb = load_workbook('Test00.xlsx')      # 讀入 Test005.xlsx
 ws = wb.active  # grab the active worksheet (first)
 
 
